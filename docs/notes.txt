@@ -1,5 +1,21 @@
-React y Redux fácil - Uso de Logger Middleware 💻 EP.12
+React y Redux fácil - Uso de Logger Middleware 💻 EP.16
 min 0:00
+
+- redux-devtools-extension
+https://github.com/zalmoxisus/redux-devtools-extension
 
 - Install 
 npm i redux react-redux
+npm install --save redux-devtools-extension
+
+- Run 
+npm run start
+
+- in Store
+import { createStore } from 'redux';
+import rootReducers from './reducers/rootReducers';
+import { composeWithDevTools } from 'redux-devtools-extension';
+
+const store = createStore(rootReducers, composeWithDevTools());
+
+export default store;

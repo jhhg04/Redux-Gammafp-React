@@ -1,5 +1,7 @@
-import CantidadPokemon from './components/CantidadPokemon';
-import CompraPokemon from './components/CompraPokemon';
+// import CantidadPokemon from './components/CantidadPokemon';
+// import CompraPokemon from './components/CompraPokemon';
+import CantidadPokemonHook from './components/CantidadPokemon.hook';
+import CompraPokemonHook from './components/CompraPokemon.hook';
 
 import './App.css';
 import pokemon from './img/pokemon.jpg';
@@ -21,9 +23,9 @@ function App() {
                 <div className="col-8">
                   <div className="card-body">
                     <div className="card-title h3 text-center">
-                      <CantidadPokemon />
+                      <CantidadPokemonHook />
                     </div>
-                    <CompraPokemon />
+                    <CompraPokemonHook />
                   </div>
                 </div>
               </div>
