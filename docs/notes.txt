@@ -1,2 +1,5 @@
+React y Redux fácil - Uso de Logger Middleware 💻 EP.12
+min 0:00
+
 - Install 
 npm i redux react-redux
